@@ -9,6 +9,8 @@ N/A
 Usage
 To use this repo, you can view the html file to see how a basic page can be formatted, links and images can be added, and basic usages of div tags. On the css file, you can see how certain classes can be used to apply to many different elements on the page simultaneously versus writing code for each individual element.
 
+Link to site: https://stringer-j.github.io/site_accessibility_1/
+
 Credits
 N/A
 
