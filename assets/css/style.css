@@ -43,15 +43,18 @@ a {
     text-decoration: none;
 }
 
+/* changes all paragraph font to 16 pixels */
 p {
     font-size: 16px;
 }
 
+/* adds a bottom margin and changes font size to 36 pixels for all h2 tags */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* adds a bottom margin and aligns text to center for all h3 tags */
 h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -66,12 +69,14 @@ h3 {
     background-position: center;
 }
 
+/* brings the img to the left, adds a margin and caps the height of the img at 200 pixels */
 .float-left {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
+/* brings img to the right, adds a margin and caps the height of the img at 200 pixels */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -95,30 +100,20 @@ h3 {
     background-color: #2589bd;
 }
 
+/* adds bottom margin and text color to the following three classes */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* formats all images in the "benefits" class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* adds formatting for the following three classes */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
