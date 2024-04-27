@@ -1,13 +1,16 @@
+/* adds box sizing, and padding and margin of zero to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* changes background color for the body of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* adds padding, font, background color and font color to the header class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* changes display and font size for all instance of h1 in the header class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the color of "seo" within the instance of h1 in the header class */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* adds padding, margins, font, font size, and floats the image to the right in the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,12 +38,14 @@ body {
     font-size: 20px;
 }
 
+/* removes list style type, changes display to inline-block, and adds left margin to unsorted list list items in header */
 .header div ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* changes color and removes text decoration for all links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -60,6 +68,7 @@ h3 {
     text-align: center;
 }
 
+/* applies formatting to, and adds background image to page */
 .hero {
     height: 800px;
     width: 100%;
@@ -83,12 +92,14 @@ h3 {
     max-height: 200px;
 }
 
+/* sets width to 75%, display to inline-block and adds a left margin to elements using the content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* applies formatting, font and background color to elements using the benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -123,6 +134,7 @@ h3 {
     color: #ffffff;
 }
 
+/* adds padding, pushes the element below nearby floating elements, adds multiple fonts, and aligns text to center for the footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -130,6 +142,7 @@ h3 {
     text-align: center;
 }
 
+/* changes the font size in every instance of h2 in the footer class */
 .footer h2 {
     font-size: 20px;
 }
